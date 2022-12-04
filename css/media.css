@@ -1,0 +1,106 @@
+@media (max-width: 900px){
+    .advantages-list{
+        display: grid;
+        grid-template-columns: repeat(2, max-content);
+        gap: 20px;
+    }
+    .services-inner-content{
+        grid-template-columns: auto;
+    }
+    .services-inner-content-right{
+        margin-top: 30px;
+    }
+    .finished-projects-list{
+        grid-template-columns: max-content max-content;
+    }
+}
+@media (max-width: 768px){
+	.menu-burger{
+		display: block
+	}
+    .header-bottom-nav-menu{
+        display: none;
+    }
+    .main-text-top{
+        font-size: 30px;
+        line-height: 60px;
+    }
+    .main-text-bottom{
+        font-size: 45px;
+        line-height: 60px;
+    }
+    .main-slider-btn-right,
+    .main-slider-btn-left{
+        top: 70px;
+    }
+    .about-inner-content{
+        grid-template-columns: auto;
+        gap: 30px;
+    }
+    .about-left-title{
+        font-size: 20px;
+        line-height: 35px;
+    }
+    .about-left-subtitle{
+        font-size: 25px;
+        line-height: 30px;
+        margin-bottom: 10px;
+    }
+    .advantages-inner{
+        padding: 130px 10px;
+    }
+    .services-items-all{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .services-inner{
+        height: auto;
+    }
+    .services-wrapper{
+        background-size: cover;
+    }
+    .finished-projects-list{
+        grid-template-columns: auto; 
+        gap: 10px;
+    }    
+}
+@media (max-width: 500px){
+    .main-text-top{
+        font-size: 18px;
+        line-height: 35px;
+    }
+    .main-text-bottom{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .main-button{
+        margin-top: 20px;
+    }
+    .main-slider-btn-right,
+    .main-slider-btn-left{
+        top: 30px;
+    }
+    .contact-email{
+        display: none;
+    }
+    .about-right img{
+        width: 100%;
+    }
+
+    .advantages-wrapper{
+        height: auto;
+    }
+    .advantages-list{
+        display: grid;
+        grid-template-columns: auto;
+        gap: 20px;
+    }
+
+}
+
+@media (max-width: 400px){
+    .services-inner-content-left img,
+    .finished-projects-item img{
+        width: 100%;
+    }
+}
